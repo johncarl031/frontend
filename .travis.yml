@@ -11,10 +11,10 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "us-west-2"
-  app: "docker"
-  env: "Docker-env"
-  bucket_name: "elasticbeanstalk-us-west-2-306476627547"
-  bucket_path: "docker"
+  app: "jc-frontend"
+  env: "JcFrontend-env"
+  bucket_name: "elasticbeanstalk-us-east-2-890268847925"
+  bucket_path: "jc-frontend"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
